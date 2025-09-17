@@ -216,7 +216,7 @@ const FrontendReplica = () => {
             </div>
           </div>
           
-          {/*Footer Card */}
+          {/*Footer Card 
           <div className={`rounded-xl ${isDark ? 'bg-gray-800' : 'bg-gray-50'} p-6`}>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
@@ -239,7 +239,7 @@ const FrontendReplica = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 
