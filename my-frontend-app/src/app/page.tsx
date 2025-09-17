@@ -1,3 +1,4 @@
+"use client"; 
 import React, { useState } from 'react';
 import { Sun, Moon, Play, ExternalLink, Star, Eye, GitFork } from 'lucide-react';
 
