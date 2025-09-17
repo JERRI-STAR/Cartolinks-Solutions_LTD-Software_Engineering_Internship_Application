@@ -208,7 +208,7 @@ const ResponsiveFrontendWebsite = () => {
                 <div className="absolute right-4 lg:right-6 top-6 lg:top-8">
                   <div className="w-16 lg:w-20 h-20 lg:h-24 bg-white/10 rounded-xl backdrop-blur-sm border border-white/20">
                     {/* Add your tech/AI related image here */}
-                    <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="AI Tech" className="w-full h-full object-contain p-2" />
+                    <img src="https://mcdn.wallpapersafari.com/medium/99/82/m0blsF.jpg" alt="AI Tech" className="w-full h-full object-contain p-2" />
                     <div className="w-full h-full flex items-center justify-center text-xl lg:text-2xl">
                       {/*🚀*/}
                     </div>
