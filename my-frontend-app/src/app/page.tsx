@@ -173,6 +173,12 @@ const ResponsiveFrontendWebsite = () => {
                 
                 {/* 🔄 REPLACE WITH YOUR OWN IMAGE */}
                 <div className="absolute right-4 lg:right-6 top-1/2 transform -translate-y-1/2">
+                <style>
+                  background-image {url('https://mcdn.wallpapersafari.com/medium/72/12/73yFoh.png');
+                  background-size: cover;
+                  background-position: center;
+                }
+                </style>
                   <div className="w-20 lg:w-28 h-28 lg:h-40 bg-white/10 rounded-xl backdrop-blur-sm border border-white/20">
                     {/* Add your character image here */}
                     <img src="https://mcdn.wallpapersafari.com/medium/72/12/73yFoh.png" alt="Character" className="w-full h-full object-cover rounded-xl" />
