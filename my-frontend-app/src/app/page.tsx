@@ -215,7 +215,8 @@ const FrontendReplica = () => {
               </button>
             </div>
           </div>
-
+          
+          {/*Footer Card */}
           <div className={`rounded-xl ${isDark ? 'bg-gray-800' : 'bg-gray-50'} p-6`}>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
@@ -242,7 +243,34 @@ const FrontendReplica = () => {
         </div>
       </section>
 
- 
+      {/* Footer Section */}
+      <div className={`rounded-xl mt-12 ${isDark ? 'bg-gray-800 border-t border-gray-700 shadow-lg' : 'bg-gray-50 border-t border-gray-200 shadow'} p-6`}>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">K</span>
+            </div>
+            <div>
+              <h4 className={`font-semibold ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                Krea AI
+              </h4>
+              <p className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Empowering creativity with AI tools</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 text-sm">
+            <span className={`${isDark ? 'text-gray-400' : 'text-gray-600'}`}>curated by</span>
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 bg-gray-600 rounded"></div>
+              <span className={`font-semibold ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                Mobbin
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-4 text-center text-xs text-gray-400">
+          &copy; {new Date().getFullYear()} Krea AI. All rights reserved.
+        </div>
+      </div>
     </div>
   );
 };
