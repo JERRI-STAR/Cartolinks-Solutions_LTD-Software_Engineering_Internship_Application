@@ -242,44 +242,7 @@ const FrontendReplica = () => {
         </div>
       </section>
 
-      {/* Input Section */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className={`rounded-xl ${isDark ? 'bg-gray-800' : 'bg-gray-50'} p-6`}>
-            <label className={`block text-sm font-medium mb-3 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-              Your answer
-            </label>
-            <textarea
-              placeholder="Enter your response here..."
-              className={`w-full h-32 px-4 py-3 rounded-lg resize-none ${
-                isDark 
-                  ? 'bg-gray-700 text-white placeholder-gray-400 border-gray-600 focus:border-blue-500' 
-                  : 'bg-white text-gray-900 placeholder-gray-500 border-gray-300 focus:border-blue-500'
-              } border focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition-colors`}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Assignment Code Section */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className={`rounded-xl ${isDark ? 'bg-gray-800' : 'bg-gray-50'} p-6`}>
-            <label className={`block text-sm font-medium mb-3 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-              Your Assignment Code GitHub Repository URL <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="url"
-              placeholder="https://github.com/username/repository"
-              className={`w-full px-4 py-3 rounded-lg ${
-                isDark 
-                  ? 'bg-gray-700 text-white placeholder-gray-400 border-gray-600 focus:border-blue-500' 
-                  : 'bg-white text-gray-900 placeholder-gray-500 border-gray-300 focus:border-blue-500'
-              } border focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition-colors`}
-            />
-          </div>
-        </div>
-      </section>
+ 
     </div>
   );
 };
