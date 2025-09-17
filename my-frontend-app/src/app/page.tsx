@@ -114,6 +114,7 @@ const FrontendReplica = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-orange-400 to-pink-600 rounded-2xl p-8 text-white relative overflow-hidden">
                 <div className="relative z-10">
+                  <img src="/my-frontend-app/src/images/yu.jpg" alt="Yu-gi-oh-Images of all protagonist_duelist" className="mb-4 w-16 h-16 rounded-lg" />
                   <h2 className="text-4xl font-bold mb-4">WAN 2.2</h2>
                   <p className="text-lg mb-6 opacity-90">
                     WAN 2.2 Image generation<br />
